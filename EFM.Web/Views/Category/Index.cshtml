@@ -22,7 +22,7 @@
                 <table style="width:100%;">
                     <tr>
                         <td>
-                            <h3 class="card-title">Danh sách khóa học</h3>
+                            <h3 class="card-title">Danh sách danh mục</h3>
                         </td>
                         <td>
                             <select class="form-control" id="categoryDropDownList">
@@ -40,7 +40,8 @@
                                     }
 
                                 }*@
-                            <option value="@*@category.ID*@">Tên</option>
+                                <option value="@*@category.ID*@">Chi tiêu</option>
+                                <option value="@*@category.ID*@">Thu nhập</option>
                             </select>
 
                         </td>
@@ -85,22 +86,22 @@
                                                     @itemcate.Name;
                                                 }
                                             }*@
-                                            Chi
+                                            Chi tiêu
                                         </td>
 
                                         <td><a href="#" class="badge bg-info">@*@Html.Raw(@item.Status ? "<strong>Kích hoạt</strong>" : "<font style='color:red;'>Khóa</font>")*@Active</a></td>
                                         <td style="text-align:center;width:15px;vertical-align:middle;">
 
-                                            @*@Ajax.ActionLink("Xóa khóa học", "Delete", new { @id = item.ID }, new AjaxOptions
+                                            @Ajax.ActionLink("Xóa danh mục", "Delete", new { @*@id = item.ID*@ }, new AjaxOptions
                                             {
-                                              Confirm = "Bạn có muốn xóa không ?",
-                                              OnComplete = "$('#row_" + item.ID + "').remove()",
+                                              Confirm = "Bạn có muốn xóa danh mục này không ?",
+                                              //OnComplete = "$('#row_" + item.ID + "').remove()",
                                               HttpMethod = "Delete"
                                             }, new
                                             {
                                               @class = "badge badge-danger"
-                                            })*@
-                                            Xóa danh mục
+                                            })
+                                            
                                         </td>
                                         <td style="width:10px;">
                                             <a class="badgebtnlink" href="#" id="alert_@*@item.ID*@" role="button" data-toggle="modal" data-target="#product-edit-@*@item.ID*@">
@@ -110,20 +111,20 @@
                                                 <div class="modal-dialog modal-lg">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h5 class="modal-title" id="myLargeModalLabel">Màn hình cập nhật khóa học</h5>
+                                                            <h5 class="modal-title" id="myLargeModalLabel">Màn hình cập nhật danh mục</h5>
                                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                                         </div>
                                                         <div class="modal-body">
                                                             <div class="row">
                                                                 <div class="col-md-6">
                                                                     <div class="form-group">
-                                                                        <label for="field-1" class="control-label">Tên khóa học</label>
+                                                                        <label for="field-1" class="control-label">Tên danh mục</label>
                                                                         <input type="text" class="form-control" value="@*@item.Name*@" id="e_name_@*@item.ID*@" placeholder="">
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-3">
                                                                     <div class="form-group">
-                                                                        <label for="field-2" class="control-label">Mã khóa học</label>
+                                                                        <label for="field-2" class="control-label">Mã danh mục</label>
                                                                         <input type="text" class="form-control" value="@*@item.Code*@" id="e_code__@*@item.ID*@" placeholder="">
                                                                     </div>
                                                                 </div>
