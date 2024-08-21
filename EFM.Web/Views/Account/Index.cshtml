@@ -56,16 +56,16 @@
                                         <td><a href="#" class="badge bg-info">@*@Html.Raw(@item.Status ? "<strong>Kích hoạt</strong>" : "<font style='color:red;'>Khóa</font>")*@Active</a></td>
                                         <td style="text-align:center;width:15px;vertical-align:middle;">
 
-                                            @*@Ajax.ActionLink("Xóa tài khoản", "Delete", new { @id = item.ID }, new AjaxOptions
+                                            @Ajax.ActionLink("Xóa tài khoản", "Delete", new { @*@id = item.ID*@ }, new AjaxOptions
                                               {
-                                                Confirm = "Bạn có muốn xóa không ?",
-                                                OnComplete = "$('#row_" + item.ID + "').remove()",
+                                                Confirm = "Bạn có muốn xóa tài khoản không ?",
+                                                //OnComplete = "$('#row_" + item.ID + "').remove()",
                                                 HttpMethod = "Delete"
                                               }, new
                                               {
                                                   @class = "badge badge-danger"
-                                              })*@
-                                            Xoa tai khoan
+                                              })
+                                            
                                         </td>
                                         <td style="width:10px;">
                                             <a class="badge btn-link" href="#" id="alert_@*@item.ID*@"

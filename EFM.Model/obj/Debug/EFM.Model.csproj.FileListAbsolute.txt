@@ -1,0 +1,12 @@
+E:\expense-family-management\EFM.Model\bin\Debug\EFM.Model.dll.config
+E:\expense-family-management\EFM.Model\bin\Debug\EFM.Model.dll
+E:\expense-family-management\EFM.Model\bin\Debug\EFM.Model.pdb
+E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.dll
+E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.xml
+E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.csproj.AssemblyReference.cache
+E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.csproj.CoreCompileInputs.cache
+E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.csproj.Up2Date
+E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.dll
+E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.pdb
