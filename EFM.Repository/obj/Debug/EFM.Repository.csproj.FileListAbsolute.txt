@@ -19,3 +19,5 @@ E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.csproj.Core
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repo.B06EB28D.Up2Date
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.dll
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.pdb
+E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.Migrations.EFMDB.resources
+E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.csproj.GenerateResource.cache

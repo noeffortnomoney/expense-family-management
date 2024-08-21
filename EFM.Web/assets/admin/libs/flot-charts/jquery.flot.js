@@ -1935,7 +1935,7 @@ Licensed under the MIT license.
             ctx.save();
             ctx.translate(plotOffset.left, plotOffset.top);
 
-            ctx.fillStyle = getColorOrGradient(options.grid.backgroundColor, plotHeight, 0, "rgba(255, 255, 255, 0)");
+            //ctx.fillStyle = getColorOrGradient(options.grid.backgroundColor, plotHeight, 0, "rgba(255, 255, 255, 0)");
             ctx.fillRect(0, 0, plotWidth, plotHeight);
             ctx.restore();
         }
@@ -2701,7 +2701,7 @@ Licensed under the MIT license.
                 return null;
 
             if (filloptions.fillColor)
-                return getColorOrGradient(filloptions.fillColor, bottom, top, seriesColor);
+                //return getColorOrGradient(filloptions.fillColor, bottom, top, seriesColor);
 
             var c = $.color.parse(seriesColor);
             c.a = typeof fill == "number" ? fill : 0.4;
@@ -3112,7 +3112,7 @@ Licensed under the MIT license.
                     function () { return fillStyle; }, series.xaxis, series.yaxis, octx, series.bars.horizontal, series.bars.lineWidth);
         }
 
-        function getColorOrGradient(spec, bottom, top, defaultColor) {
+        /*function getColorOrGradient(spec, bottom, top, defaultColor) {
             if (typeof spec == "string")
                 return spec;
             else {
@@ -3136,7 +3136,7 @@ Licensed under the MIT license.
 
                 return gradient;
             }
-        }
+        }*/
     }
 
     // Add the plot function to the top level of the jQuery object
