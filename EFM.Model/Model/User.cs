@@ -30,6 +30,9 @@ namespace EFM.Model.Model
         [Required]
         public string PhoneNumber { get; set; }
 
+        public bool IsActived {  get; set; }
+        public bool IsDeleted { get; set; }
+
         public virtual ICollection<FamilyMember> FamilyMembers { get; set; }
         public virtual ICollection<Expense> Expenses { get; set; }
         public virtual ICollection<Income> Incomes { get; set; }

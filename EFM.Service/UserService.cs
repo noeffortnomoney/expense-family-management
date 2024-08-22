@@ -43,7 +43,7 @@ namespace EFM.Service
 
         public IEnumerable<User> GetAll()
         {
-            return _userRepository.GetAll(new string[] { "User" });
+            return _userRepository.GetAll();
         }
 
         public User GetById(int id)

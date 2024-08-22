@@ -1,6 +1,8 @@
 E:\expense-family-management\EFM.Common\bin\Debug\EFM.Common.dll
 E:\expense-family-management\EFM.Common\bin\Debug\EFM.Common.pdb
 E:\expense-family-management\EFM.Common\obj\Debug\EFM.Common.csproj.AssemblyReference.cache
+E:\expense-family-management\EFM.Common\obj\Debug\EFM.Common.Resources.UserResource.resources
+E:\expense-family-management\EFM.Common\obj\Debug\EFM.Common.csproj.GenerateResource.cache
 E:\expense-family-management\EFM.Common\obj\Debug\EFM.Common.csproj.CoreCompileInputs.cache
 E:\expense-family-management\EFM.Common\obj\Debug\EFM.Common.dll
 E:\expense-family-management\EFM.Common\obj\Debug\EFM.Common.pdb
