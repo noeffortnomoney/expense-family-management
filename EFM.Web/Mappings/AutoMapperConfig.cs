@@ -13,7 +13,9 @@ namespace EFM.Web.Mappings
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<Category, CategoryViewModel>();
+                //User
                 cfg.CreateMap<User, UserViewModel>();
+                cfg.CreateMap<UserViewModel, User>();
             });
 
             Mapper = config.CreateMapper();

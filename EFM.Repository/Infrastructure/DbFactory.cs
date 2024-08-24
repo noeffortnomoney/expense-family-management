@@ -1,7 +1,4 @@
-﻿using System.Data.Odbc;
-using System;
-
-namespace EFM.Repository.Infrastructure
+﻿namespace EFM.Repository.Infrastructure
 {
     public class DbFactory : Disposable, IDbFactory
     {

@@ -1,12 +1,5 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
-using System;
-using System.Collections.Generic;
+﻿using EFM.Model.Model;
 using System.Data.Entity;
-using System.Linq;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
-using EFM.Model.Model;
 
 namespace EFM.Repository
 {

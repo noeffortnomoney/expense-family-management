@@ -34,13 +34,12 @@
                         <table id="datatable" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                             <thead>
                                 <tr>
-                                    <th>@Html.LabelFor(m => m.First().UserID)</th>
+                                    <th>@Html.LabelFor(m => m.First().OrderNumber)</th>
                                     <th>@Html.LabelFor(m => m.First().UserName)</th>
                                     <th>@Html.LabelFor(m => m.First().FullName)</th>
-                                    <th>@Html.LabelFor(m => m.First().Address)</th>
                                     <th>@Html.LabelFor(m => m.First().Email)</th>
+                                    <th>@Html.LabelFor(m => m.First().PhoneNumber)</th>
                                     <th>@Html.LabelFor(m => m.First().IsActived)</th>
-                                    <th></th>
                                     <th></th>
                                 </tr>
                             </thead>
@@ -48,11 +47,13 @@
                                 @foreach (var item in Model)
                                 {
                                     <tr id="row_@item.UserID">
-                                        <td>@item.UserID</td>
+                                        <td>
+                                            <a href="@Url.Action("DetailAccount", "Account", new { id = item.UserID })">@item.OrderNumber</a>
+                                        </td>
                                         <td>@item.UserName</td>
                                         <td>@item.FullName</td>
-                                        <td>@item.Address</td>
                                         <td>@item.Email</td>
+                                        <td>@item.PhoneNumber</td>
                                         <td>
                                             <a href="#" class="badge bg-info">
                                                 @Html.Raw(item.IsActived ? "<strong>Kích hoạt</strong>" : "<font style='color:red; background-color: white;'>Khóa</font>")
@@ -60,103 +61,19 @@
                                         </td>
                                         <td style="text-align:center;width:15px;vertical-align:middle;">
 
-                                            @Ajax.ActionLink("Xóa tài khoản", "Delete", new
-                                            {@*@id = item.ID*@}, new AjaxOptions
-                                                {
-                                                    Confirm = "Bạn có muốn xóa tài khoản không ?",
-                                                    //OnComplete = "$('#row_" + item.ID + "').remove()",
-                                                    HttpMethod = "Delete"
-                                                    }, new
-                                                        {
-                                                            @class = "badge badge-danger"
-                                                        })
-
-                                        </td>
-                                        <td style="width:10px;">
-                                            <a class="badge btn-link" href="#" id="alert_@item.UserID"
+                                            <a class="badge btn-link custom-icon-wrapper" href="#" id="alert_@item.UserID"
                                                role="button" data-toggle="modal" data-target="#con-close-modal-edit-@item.UserID">
-                                                <i class="fas fa-edit"></i>
+                                                <i class="fas fa-edit fa-2x custom-icon-style"></i>
                                             </a>
-                                            <div id="con-close-modal-edit-@*@item.ID*@" class="modal fade"
-                                                 tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
-                                                 style="display: none;">
-                                                <div class="modal-dialog">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h5 class="modal-title">Cập nhật tài khoản</h5>
-                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                <span aria-hidden="true">&times;</span>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label for="field-1" class="control-label">Tài khoản</label>
-                                                                        <input type="text" class="form-control" value="@*@item.UserName*@"
-                                                                               disabled="disabled" id="e_username_@*@item.ID*@" placeholder="">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label for="field-2" class="control-label">Mật khẩu</label>
-                                                                        <input type="text" class="form-control" value="@*@item.Password*@"
-                                                                               id="e_password_@*@item.ID*@" placeholder="">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-12">
-                                                                    <div class="form-group">
-                                                                        <label for="field-3" class="control-label">Họ và tên</label>
-                                                                        <input type="text" class="form-control" value="@*@item.Name*@"
-                                                                               id="e_name_@*@item.ID*@" placeholder="">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-12">
-                                                                    <div class="form-group no-margin">
-                                                                        <label for="field-7" class="control-label">Địa chỉ</label>
-                                                                        <input type="text" class="form-control" value="@*@item.Address*@"
-                                                                               id="e_address_@*@item.ID*@" placeholder="">
+                                            <a href="@Url.Action("DeleteConfirmed", new { id = item.UserID })"
+                                               class="badge btn-link custom-icon-wrapper"
+                                               data-ajax="true"
+                                               data-ajax-confirm="Bạn có muốn xóa tài khoản không?"
+                                               data-ajax-method="DELETE"
+                                               data-ajax-success="$('#row_@item.UserID').remove()">
+                                                <i class="fas fa-trash fa-2x custom-icon-style"></i>
+                                            </a>
 
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label for="field-1" class="control-label">Email</label>
-                                                                        <input type="text" class="form-control"
-                                                                               value="@*@item.Email*@" id="e_email_@*@item.ID*@" placeholder="">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group">
-                                                                        <label for="field-2" class="control-label">Điện thoại</label>
-                                                                        <input type="text" class="form-control" value="@*@item.Phone*@"
-                                                                               id="e_phone_@*@item.ID*@" placeholder="">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-secondary
-                                waves-effect" data-dismiss="modal">
-                                                                Thoát
-                                                            </button>
-                                                            <a class="capNhat" data-listid="@item.UserID"
-                                                               data-password="e_password_@item.UserID" data-name="e_name_@item.UserID"
-                                                               data-address="e_address_@item.UserID" data-email="e_email_@item.UserID"
-                                                               data-phone="e_phone_@item.UserID">
-                                                                <input type="submit" id="btnUpdateUser" class="btn btn-info
-                                  waves-effect waves-light" value="Cập nhật" />
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </td>
                                     </tr>
 
@@ -197,3 +114,20 @@
 
     <script src="/assets/admin/controller/userController.js"></script>
 }
+<style>
+    .custom-icon-wrapper {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #f0f0f0; 
+        border-radius: 5px; 
+        text-align: center;
+        line-height: 40px; 
+        margin-right: 5px; 
+    }
+
+    .custom-icon-style {
+        font-size: 1.5em;
+        color: #333333;
+    }
+</style>

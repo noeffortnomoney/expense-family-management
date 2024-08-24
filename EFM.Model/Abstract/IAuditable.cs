@@ -4,11 +4,11 @@ namespace EFM.Model.Abstract
 {
     public interface IAuditable
     {
-        DateTime? CreatedDate { set; get; }
-        int CreatedBy { set; get; }
-        DateTime? UpdatedDate { set; get; }
-        int UpdatedBy { set; get; }
-        DateTime? DeletedDate { set; get; }
-        int DeletedBy { set; get; }
+        DateTime CreatedDate { get; set; }
+        int CreatedBy { get; set; }
+        DateTime? UpdatedDate { get; set; }
+        int? UpdatedBy { get; set; }
+        DateTime? DeletedDate { get; set; }
+        int? DeletedBy { get; set; }
     }
 }

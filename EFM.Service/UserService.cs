@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using EFM.Model.Model;
 using EFM.Repository.Infrastructure;
 using EFM.Repository.Repositories;
@@ -18,6 +19,10 @@ namespace EFM.Service
         User GetById(int id);
 
         void SaveChanges();
+
+        User AddUser(User user);
+
+        User DeleteAccount(int id);
     }
 
     public class UserService : IUserService
@@ -33,6 +38,9 @@ namespace EFM.Service
 
         public void Add(User user)
         {
+            user.IsActived = true;  
+            user.IsDeleted = false; 
+
             _userRepository.Add(user);
         }
 
@@ -60,5 +68,37 @@ namespace EFM.Service
         {
             _userRepository.Update(user);
         }
+
+        public User AddUser(User user)
+        {
+            user.IsActived = true;   
+            user.IsDeleted = false;
+            user.CreatedDate = DateTime.Now;
+            user.CreatedBy = 1; //tạm thời cho = 1 vì chưa phân quyền
+
+            _userRepository.Add(user);
+            SaveChanges();
+            return user;
+        }
+        public User DeleteAccount(int id)
+        {
+            var user = _userRepository.GetById(id);
+
+            if (user != null)
+            {
+                user.DeletedDate = DateTime.Now;
+                user.DeletedBy = 1; 
+
+                user.IsDeleted = true;
+                user.IsActived = false;
+
+                _userRepository.SoftDelete(id);
+
+                SaveChanges();
+            }
+
+            return user;
+        }
+
     }
 }

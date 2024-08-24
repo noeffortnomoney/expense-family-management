@@ -1,0 +1,70 @@
+﻿@model EFM.Web.Models.UserViewModel
+
+@{
+    ViewBag.Title = "Thông tin người dùng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("DetailAccount", "Account", FormMethod.Get, new { @class = "form-horizontal", id = "detailAccountForm" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.UserID)
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <table style="width:100%;">
+                        <tr>
+                            <td>
+                                <h3 class="card-title">Thông tin người dùng</h3>
+                            </td>                            
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.UserName, new { @class = "control-label" })
+                                @Html.ValueFor(model => model.UserName)
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.FullName, new { @class = "control-label" })
+                                @Html.ValueFor(model => model.FullName)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Address, new { @class = "control-label" })
+                                @Html.ValueFor(model => model.Address)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Email, new { @class = "control-label" })
+                                @Html.ValueFor(model => model.Email)
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.PhoneNumber, new { @class = "control-label" })
+                                @Html.ValueFor(model => model.PhoneNumber)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer d-flex justify-content-start">
+                    <a href="@Url.Action("EditAccount", "Account", new { id = Model.UserID })" class="btn btn-primary">Sửa</a>
+                    @Html.ActionLink("Quay về danh sách", "Index", "Account", null, new { @class = "btn btn-secondary waves-effect waves-light" })
+                </div>
+            </div>
+        </div>
+    </div>
+}
