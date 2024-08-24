@@ -94,6 +94,10 @@
     <Compile Include="Migrations\202408220702203_EFMDB-up2.Designer.cs">
       <DependentUpon>202408220702203_EFMDB-up2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202408230715050_EFMDB_up3.cs" />
+    <Compile Include="Migrations\202408230715050_EFMDB_up3.Designer.cs">
+      <DependentUpon>202408230715050_EFMDB_up3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BudgetRepository.cs" />
@@ -126,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202408220702203_EFMDB-up2.resx">
       <DependentUpon>202408220702203_EFMDB-up2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408230715050_EFMDB_up3.resx">
+      <DependentUpon>202408230715050_EFMDB_up3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

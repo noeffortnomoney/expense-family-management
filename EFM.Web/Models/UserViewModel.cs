@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 using EFM.Common.Helpers;
 using EFM.Common.Resources;
 
@@ -31,5 +32,10 @@ namespace EFM.Web.Models
 
         [LocalizedDisplayName("Status", NameResourceType = typeof(UserResource))]
         public bool IsActived { get; set; }
+        public string Role { get; set; }
+        public IEnumerable<SelectListItem> Roles { get; set; }
+
+        [LocalizedDisplayName("OrderNumber", NameResourceType = typeof(UserResource))]
+        public int OrderNumber { get; set; }
     }
 }

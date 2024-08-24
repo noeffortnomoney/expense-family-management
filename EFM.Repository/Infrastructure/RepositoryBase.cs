@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EFM.Repository.Infrastructure
 {
@@ -143,6 +141,20 @@ namespace EFM.Repository.Infrastructure
         {
             return dataContext.Set<T>().Count<T>(predicate) > 0;
         }
+
+        public virtual T GetById(int id)
+        {
+            return dbSet.Find(id);
+        }
+        public virtual void SoftDelete(int id)
+        {
+            var entity = dbSet.Find(id);
+            if (entity != null)
+            {
+                dataContext.Entry(entity).State = EntityState.Modified;
+            }
+        }
+
         #endregion
     }
 }

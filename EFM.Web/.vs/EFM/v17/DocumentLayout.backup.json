@@ -3,20 +3,30 @@
   "WorkspaceRootPath": "E:\\expense-family-management\\EFM.Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|e:\\expense-family-management\\efm.web\\assets\\admin\\libs\\datatables\\jquery.datatables.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:assets\\admin\\libs\\datatables\\jquery.datatables.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|e:\\expense-family-management\\efm.web\\assets\\admin\\libs\\datatables\\datatables.bootstrap4.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:assets\\admin\\libs\\datatables\\datatables.bootstrap4.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|e:\\expense-family-management\\efm.web\\views\\account\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\account\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E6E7A89E-65F7-4A16-A209-A2629B7E4071}|..\\EFM.Common\\EFM.Common.csproj|e:\\expense-family-management\\efm.common\\resources\\userresource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E7A89E-65F7-4A16-A209-A2629B7E4071}|..\\EFM.Common\\EFM.Common.csproj|e:\\expense-family-management\\efm.common\\helpers\\localizeddisplaynameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,30 +36,78 @@
       "AbsoluteMoniker": "D:0:0:{53690799-8575-4174-919B-32BC2EA6A64E}|..\\EFM.Service\\EFM.Service.csproj|e:\\expense-family-management\\efm.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|e:\\expense-family-management\\efm.web\\app_start\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:app_start\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\mappings\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:mappings\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53690799-8575-4174-919B-32BC2EA6A64E}|..\\EFM.Service\\EFM.Service.csproj|e:\\expense-family-management\\efm.service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\account\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\account\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\infrastructure\\extensions\\entityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:infrastructure\\extensions\\entityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|e:\\expense-family-management\\efm.web\\views\\account\\editaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\account\\editaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\account\\detailaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\account\\detailaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\disposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\dbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|E:\\expense-family-management\\efm.model\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|E:\\expense-family-management\\efm.model\\abstract\\iauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|E:\\expense-family-management\\efm.model\\abstract\\auditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53690799-8575-4174-919B-32BC2EA6A64E}|..\\EFM.Service\\EFM.Service.csproj|e:\\expense-family-management\\efm.service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\shared\\_topmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\shared\\_topmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\flot-charts\\jquery.flot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:assets\\admin\\libs\\flot-charts\\jquery.flot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\mappings\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:mappings\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\app_start\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:app_start\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,9 +124,6 @@
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -81,29 +136,8 @@
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\dbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|E:\\expense-family-management\\efm.model\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|E:\\expense-family-management\\efm.model\\abstract\\auditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E7A89E-65F7-4A16-A209-A2629B7E4071}|..\\EFM.Common\\EFM.Common.csproj|e:\\expense-family-management\\efm.common\\resources\\userresource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E7A89E-65F7-4A16-A209-A2629B7E4071}|..\\EFM.Common\\EFM.Common.csproj|e:\\expense-family-management\\efm.common\\helpers\\localizeddisplaynameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,14 +177,7 @@
       "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|e:\\expense-family-management\\efm.model\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\flot-charts\\jquery.flot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:assets\\admin\\libs\\flot-charts\\jquery.flot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\idbfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0722B3AD-AB96-45BF-A1C9-1D82DE0E12D6}|..\\EFM.Repository\\EFM.Repository.csproj|e:\\expense-family-management\\efm.repository\\infrastructure\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -180,23 +207,8 @@
       "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|E:\\expense-family-management\\efm.model\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F482123-BEA6-4D84-85DA-83329FA15BF7}|..\\EFM.Model\\EFM.Model.csproj|E:\\expense-family-management\\efm.model\\abstract\\iauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\shared\\_topmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\shared\\_topmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\assets\\admin\\controller\\productcontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:assets\\admin\\controller\\productcontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -206,188 +218,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateAccount.cshtml",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\CreateAccount.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\CreateAccount.cshtml",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\CreateAccount.cshtml",
-              "RelativeToolTip": "Views\\Account\\CreateAccount.cshtml",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAewG4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T09:40:08.166Z",
+              "DocumentIndex": 0,
+              "Title": "jquery.dataTables.min.js",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\datatables\\jquery.dataTables.min.js",
+              "RelativeDocumentMoniker": "assets\\admin\\libs\\datatables\\jquery.dataTables.min.js",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\datatables\\jquery.dataTables.min.js",
+              "RelativeToolTip": "assets\\admin\\libs\\datatables\\jquery.dataTables.min.js",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAUwJAAAABAAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-24T00:27:23.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "dataTables.bootstrap4.min.js",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\datatables\\dataTables.bootstrap4.min.js",
+              "RelativeDocumentMoniker": "assets\\admin\\libs\\datatables\\dataTables.bootstrap4.min.js",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\datatables\\dataTables.bootstrap4.min.js",
+              "RelativeToolTip": "assets\\admin\\libs\\datatables\\dataTables.bootstrap4.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-24T00:27:11.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserResource.Designer.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Common\\Resources\\UserResource.Designer.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Common\\Resources\\UserResource.Designer.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Common\\Resources\\UserResource.Designer.cs",
+              "RelativeToolTip": "..\\EFM.Common\\Resources\\UserResource.Designer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswHcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:34:58.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Service\\UserService.cs",
               "RelativeDocumentMoniker": "..\\EFM.Service\\UserService.cs",
               "ToolTip": "E:\\expense-family-management\\EFM.Service\\UserService.cs",
               "RelativeToolTip": "..\\EFM.Service\\UserService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAewA8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T09:18:13.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAuwJQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:08:39.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
               "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\Index.cshtml",
               "RelativeToolTip": "Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAUwNAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-17T16:23:55.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
               "ToolTip": "E:\\expense-family-management\\EFM.Web\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T08:22:17.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wCEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T12:23:09.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Models\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\UserViewModel.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Models\\UserViewModel.cs",
-              "RelativeToolTip": "Models\\UserViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:47:46.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T15:02:44.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AutoMapperConfig.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Mappings\\AutoMapperConfig.cs",
-              "RelativeDocumentMoniker": "Mappings\\AutoMapperConfig.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Mappings\\AutoMapperConfig.cs",
-              "RelativeToolTip": "Mappings\\AutoMapperConfig.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:56:18.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Service\\CategoryService.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Service\\CategoryService.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Service\\CategoryService.cs",
-              "RelativeToolTip": "..\\EFM.Service\\CategoryService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwCoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:18:54.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\Startup.cs",
-              "RelativeDocumentMoniker": "App_Start\\Startup.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\Startup.cs",
-              "RelativeToolTip": "App_Start\\Startup.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:13:27.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T04:30:36.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CategoryViewModel.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\CategoryViewModel.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
-              "RelativeToolTip": "Models\\CategoryViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:24:47.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Disposable.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\Disposable.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\Disposable.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\Disposable.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\Disposable.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA7wBUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T03:39:30.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "EntityExtension.cs",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Infrastructure\\Extensions\\EntityExtension.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Extensions\\EntityExtension.cs",
@@ -400,175 +329,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EFMDbContext.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\EFMDbContext.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\EFMDbContext.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\EFMDbContext.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\EFMDbContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwB0AAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserViewModel.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "Models\\UserViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwCYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T02:52:25.007Z"
+              "WhenOpened": "2024-08-22T01:47:46.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:32:27.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\WebApiConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\WebApiConfig.cs",
-              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:41:32.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FilterConfig.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\FilterConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\FilterConfig.cs",
-              "RelativeToolTip": "App_Start\\FilterConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:41:34.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "App_Start\\BundleConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:41:35.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\RepositoryBase.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAswJMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:08:39.092Z"
+              "DocumentIndex": 9,
+              "Title": "CreateAccount.cshtml",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\CreateAccount.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\CreateAccount.cshtml",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\CreateAccount.cshtml",
+              "RelativeToolTip": "Views\\Account\\CreateAccount.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T09:40:08.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T03:40:55.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:41:35.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DbFactory.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\DbFactory.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\DbFactory.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\DbFactory.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\DbFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T02:48:14.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\UserRepository.cs",
               "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "..\\EFM.Repository\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T08:35:24.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserResource.Designer.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Common\\Resources\\UserResource.Designer.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Common\\Resources\\UserResource.Designer.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Common\\Resources\\UserResource.Designer.cs",
-              "RelativeToolTip": "..\\EFM.Common\\Resources\\UserResource.Designer.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAUwGgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T03:34:58.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "packages.config",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\packages.config",
-              "RelativeDocumentMoniker": "packages.config",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\packages.config",
-              "RelativeToolTip": "packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-22T06:43:29.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Auditable.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Abstract\\Auditable.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Abstract\\Auditable.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Abstract\\Auditable.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Abstract\\Auditable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T08:42:44.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\User.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\User.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\User.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\User.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T08:48:48.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 5,
               "Title": "LocalizedDisplayNameAttribute.cs",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Common\\Helpers\\LocalizedDisplayNameAttribute.cs",
               "RelativeDocumentMoniker": "..\\EFM.Common\\Helpers\\LocalizedDisplayNameAttribute.cs",
@@ -576,323 +375,171 @@
               "RelativeToolTip": "..\\EFM.Common\\Helpers\\LocalizedDisplayNameAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T03:33:09.452Z"
+              "WhenOpened": "2024-08-22T03:33:09.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T09:47:57.426Z"
+              "WhenOpened": "2024-08-17T12:23:09.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ExpenseRepository.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "DetailAccount.cshtml",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\DetailAccount.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\DetailAccount.cshtml",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\DetailAccount.cshtml",
+              "RelativeToolTip": "Views\\Account\\DetailAccount.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD8AAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T03:49:35.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAIsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T15:02:44.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:29:45.292Z"
+              "WhenOpened": "2024-08-21T03:40:55.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IncomeRepository.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\IncomeRepository.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\IncomeRepository.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\IncomeRepository.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\IncomeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "EditAccount.cshtml",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\EditAccount.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\EditAccount.cshtml",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Account\\EditAccount.cshtml",
+              "RelativeToolTip": "Views\\Account\\EditAccount.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAArwCQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T09:35:15.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Disposable.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\Disposable.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\Disposable.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\Disposable.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\Disposable.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:40:31.97Z"
+              "WhenOpened": "2024-08-21T03:39:30.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BudgetRepository.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\BudgetRepository.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\BudgetRepository.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\BudgetRepository.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\BudgetRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:43:52.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SavingRepository.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\SavingRepository.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\SavingRepository.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\SavingRepository.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\SavingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:52:24.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "FamilyRepository.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\FamilyRepository.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\FamilyRepository.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\FamilyRepository.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\FamilyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:48:48.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\TransactionRepository.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\TransactionRepository.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\TransactionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:53:33.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "202408210810268_EFMDB.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAwwOAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:10:28.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "App.config",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\App.config",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\App.config",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\App.config",
-              "RelativeToolTip": "..\\EFM.Repository\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-21T03:44:38.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Migrations\\Configuration.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T08:10:00.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "packages.config",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\packages.config",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\packages.config",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\packages.config",
-              "RelativeToolTip": "..\\EFM.Repository\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-21T07:32:30.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "App.config",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\App.config",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\App.config",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\App.config",
-              "RelativeToolTip": "..\\EFM.Model\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-21T07:32:34.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "jquery.flot.js",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\flot-charts\\jquery.flot.js",
-              "RelativeDocumentMoniker": "assets\\admin\\libs\\flot-charts\\jquery.flot.js",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\flot-charts\\jquery.flot.js",
-              "RelativeToolTip": "assets\\admin\\libs\\flot-charts\\jquery.flot.js",
-              "ViewState": "AgIAAI4KAAAAAAAAAAAYwJYKAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-21T04:18:56.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T03:30:07.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 15,
               "Title": "IRepository.cs",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\IRepository.cs",
               "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IRepository.cs",
               "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T03:27:38.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IDbFactory.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
-              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "DbFactory.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\DbFactory.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\DbFactory.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\DbFactory.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\DbFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T02:49:49.859Z"
+              "WhenOpened": "2024-08-21T02:48:14.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Income.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Income.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Income.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Income.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\Income.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAArAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Service\\CategoryService.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Service\\CategoryService.cs",
+              "RelativeToolTip": "..\\EFM.Service\\CategoryService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T02:09:58.356Z"
+              "WhenOpened": "2024-08-22T08:18:54.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Expense.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Expense.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Expense.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Expense.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\Expense.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAArAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Auditable.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Abstract\\Auditable.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Abstract\\Auditable.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Abstract\\Auditable.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Abstract\\Auditable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:03:29.057Z"
+              "WhenOpened": "2024-08-20T08:42:44.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Budget.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Budget.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Budget.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Budget.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\Budget.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:52:57.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Transaction.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Transaction.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Transaction.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\Transaction.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:48:56.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Saving.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Saving.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Saving.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Saving.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\Saving.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:46:39.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "FamilyMember.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\FamilyMember.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\FamilyMember.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\FamilyMember.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\FamilyMember.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:16:40.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Family.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Family.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Family.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Family.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\Family.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:14:11.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Category.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Category.cs",
-              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Category.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Category.cs",
-              "RelativeToolTip": "..\\EFM.Model\\Model\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:00:07.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 21,
               "Title": "IAuditable.cs",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Abstract\\IAuditable.cs",
               "RelativeDocumentMoniker": "..\\EFM.Model\\Abstract\\IAuditable.cs",
               "ToolTip": "E:\\expense-family-management\\EFM.Model\\Abstract\\IAuditable.cs",
               "RelativeToolTip": "..\\EFM.Model\\Abstract\\IAuditable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T08:43:27.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "_TopMenu.cshtml",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Shared\\_TopMenu.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_TopMenu.cshtml",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Shared\\_TopMenu.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_TopMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T15:01:13.563Z"
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\User.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\User.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\User.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\User.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:48:48.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 25,
+              "Title": "jquery.flot.js",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\flot-charts\\jquery.flot.js",
+              "RelativeDocumentMoniker": "assets\\admin\\libs\\flot-charts\\jquery.flot.js",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\libs\\flot-charts\\jquery.flot.js",
+              "RelativeToolTip": "assets\\admin\\libs\\flot-charts\\jquery.flot.js",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwB8AAAAzCAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-21T04:18:56.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -904,7 +551,415 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Mappings\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "Mappings\\AutoMapperConfig.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Mappings\\AutoMapperConfig.cs",
+              "RelativeToolTip": "Mappings\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:56:18.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_TopMenu.cshtml",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Shared\\_TopMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_TopMenu.cshtml",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Views\\Shared\\_TopMenu.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_TopMenu.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAIwNgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T15:01:13.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\Startup.cs",
+              "RelativeDocumentMoniker": "App_Start\\Startup.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\Startup.cs",
+              "RelativeToolTip": "App_Start\\Startup.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:13:27.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T04:30:36.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CategoryViewModel.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
+              "RelativeToolTip": "Models\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:24:47.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EFMDbContext.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\EFMDbContext.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\EFMDbContext.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\EFMDbContext.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\EFMDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:52:25.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:32:27.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:41:32.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:41:34.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:41:35.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:41:35.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-22T06:43:29.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:47:57.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ExpenseRepository.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\ExpenseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:29:45.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IncomeRepository.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\IncomeRepository.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\IncomeRepository.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\IncomeRepository.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\IncomeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:40:31.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BudgetRepository.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\BudgetRepository.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\BudgetRepository.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\BudgetRepository.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\BudgetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:43:52.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SavingRepository.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\SavingRepository.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\SavingRepository.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\SavingRepository.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\SavingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:52:24.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FamilyRepository.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\FamilyRepository.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\FamilyRepository.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\FamilyRepository.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\FamilyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:48:48.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:53:33.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "202408210810268_EFMDB.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Migrations\\202408210810268_EFMDB.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAwwOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:10:28.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\App.config",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\App.config",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\App.config",
+              "RelativeToolTip": "..\\EFM.Repository\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-21T03:44:38.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Migrations\\Configuration.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T08:10:00.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\packages.config",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\packages.config",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\packages.config",
+              "RelativeToolTip": "..\\EFM.Repository\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-21T07:32:30.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\App.config",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\App.config",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\App.config",
+              "RelativeToolTip": "..\\EFM.Model\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-21T07:32:34.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:30:07.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IDbFactory.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
+              "RelativeToolTip": "..\\EFM.Repository\\Infrastructure\\IDbFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:49:49.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Income.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Income.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Income.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Income.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\Income.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T02:09:58.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Expense.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Expense.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Expense.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\Expense.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:03:29.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Budget.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Budget.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Budget.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\Budget.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:52:57.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Transaction.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Transaction.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Transaction.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\Transaction.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:48:56.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Saving.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Saving.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Saving.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Saving.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\Saving.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:46:39.249Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 56,
+              "Title": "FamilyMember.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\FamilyMember.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\FamilyMember.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\FamilyMember.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\FamilyMember.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:16:40.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Family.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Family.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Family.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Family.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\Family.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:14:11.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Model\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "..\\EFM.Model\\Model\\Category.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Model\\Model\\Category.cs",
+              "RelativeToolTip": "..\\EFM.Model\\Model\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:00:07.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -913,28 +968,6 @@
               "ViewState": "AgIAAHEAAAAAAAAAAAAowMEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-16T10:02:22.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "productController.js",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\controller\\productController.js",
-              "RelativeDocumentMoniker": "assets\\admin\\controller\\productController.js",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\assets\\admin\\controller\\productController.js",
-              "RelativeToolTip": "assets\\admin\\controller\\productController.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-16T09:59:09.649Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1289,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

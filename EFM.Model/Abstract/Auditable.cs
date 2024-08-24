@@ -5,14 +5,18 @@ namespace EFM.Model.Abstract
 {
     public abstract class Auditable : IAuditable
     {
-        public DateTime? CreatedDate { set; get; }
-        public int CreatedBy { set; get; }
+        [Required]
+        public DateTime CreatedDate { get; set; }
 
-        public DateTime? UpdatedDate { set; get; }
-        public int UpdatedBy { set; get; }
+        [Required]
+        public int CreatedBy { get; set; }
 
-        public DateTime? DeletedDate { set; get; }
+        public DateTime? UpdatedDate { get; set; }
 
-        public int DeletedBy { set; get; }
+        public int? UpdatedBy { get; set; }
+
+        public DateTime? DeletedDate { get; set; }
+
+        public int? DeletedBy { get; set; }
     }
 }

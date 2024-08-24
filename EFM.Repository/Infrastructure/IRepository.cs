@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 
 namespace EFM.Repository.Infrastructure
@@ -35,5 +34,7 @@ namespace EFM.Repository.Infrastructure
         int Count(Expression<Func<T, bool>> where);
 
         bool CheckContains(Expression<Func<T, bool>> predicate);
+        T GetById(int id);
+        void SoftDelete(int id);
     }
 }
