@@ -1,3 +1,5 @@
+﻿using EFM.Web.App_Start;
+using EFM.Web.Mappings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +20,10 @@ namespace EFM.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            AutoMapperConfig.Configure();
+
+            AutofacConfig.Register();
         }
     }
 }
