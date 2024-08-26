@@ -23,7 +23,6 @@ namespace EFM.Web
 
             AutoMapperConfig.Configure();
 
-            // Cấu hình Autofac
             AutofacConfig.Register();
         }
     }

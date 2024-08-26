@@ -1,5 +1,7 @@
 ﻿using EFM.Model.Model;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System.Data.Entity;
+using System.Reflection.Emit;
 
 namespace EFM.Repository
 {
@@ -20,14 +22,24 @@ namespace EFM.Repository
         public DbSet<Transaction> Transactions { set; get; }
         public DbSet<Budget> Budgets { set; get; }
 
+        public DbSet<ApplicationRole> ApplicationRoles { set; get; }
+        public DbSet<ApplicationUser> ApplicationUsers { set; get; }
+
         public static EFMDbContext Create()
         {
             return new EFMDbContext();
         }
 
-        protected override void OnModelCreating(DbModelBuilder builder)
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
 
+            // Tùy chỉnh tên bảng nếu muốn
+            modelBuilder.Entity<ApplicationUser>().ToTable("Users");
+            modelBuilder.Entity<IdentityRole>().ToTable("Roles");
+            modelBuilder.Entity<IdentityUserRole>().ToTable("UserRoles");
+            modelBuilder.Entity<IdentityUserClaim>().ToTable("UserClaims");
+            modelBuilder.Entity<IdentityUserLogin>().ToTable("UserLogins");
         }
     }
 }

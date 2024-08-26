@@ -1686,8 +1686,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_TopMenu.cshtml" />
     <Content Include="Views\Account\Index.cshtml" />
@@ -1695,6 +1693,8 @@
     <Content Include="Views\Account\CreateAccount.cshtml" />
     <Content Include="Views\Account\DetailAccount.cshtml" />
     <Content Include="Views\Account\EditAccount.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Shared\_LayoutLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
