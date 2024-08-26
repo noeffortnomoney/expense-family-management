@@ -23,6 +23,8 @@ namespace EFM.Service
         User AddUser(User user);
 
         User DeleteAccount(int id);
+
+        bool ResetPassword(int userId, string newPassword);
     }
 
     public class UserService : IUserService
@@ -98,6 +100,21 @@ namespace EFM.Service
             }
 
             return user;
+        }
+        public bool ResetPassword(int userId, string newPassword)
+        {
+            var user = _userRepository.GetSingleById(userId);
+            if (user == null)
+                return false;
+
+            user.Password = newPassword; 
+            user.UpdatedDate = DateTime.Now;
+            user.UpdatedBy = 1; 
+
+            _userRepository.Update(user);
+            _unitOfWork.Commit();
+
+            return true;
         }
 
     }

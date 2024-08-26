@@ -110,7 +110,24 @@ namespace EFM.Web.Controllers
 
             return Json(new { success = true });
         }
+        [HttpPost]
+        public ActionResult ResetPassword(int userId, string newPassword)
+        {
+            var result = _userService.ResetPassword(userId, newPassword);
 
+            if (result)
+            {
+                return Json(new { success = true, message = "Cấp lại mật khẩu thành công." });
+            }
+            else
+            {
+                return Json(new { success = false, message = "Cấp lại mật khẩu thất bại. Vui lòng thử lại." });
+            }
+        }
+        public ActionResult Login()
+        {
+            return View();
+        }
 
     }
 }

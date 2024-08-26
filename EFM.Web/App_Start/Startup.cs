@@ -10,6 +10,7 @@ using EFM.Repository.Repositories;
 using EFM.Repository;
 using EFM.Service;
 using EFM.Web.Mappings;
+using EFM.Model.Model;
 
 namespace EFM.Web.App_Start
 {
@@ -36,17 +37,12 @@ namespace EFM.Web.App_Start
                 .Where(t => t.Name.EndsWith("Repository"))
                 .AsImplementedInterfaces().InstancePerRequest();
 
-            /*builder.RegisterAssemblyTypes(typeof(UserService).Assembly)
-                .Where(t => t.Name.EndsWith("Service"))
-                .AsImplementedInterfaces().InstancePerRequest();
-
-            builder.RegisterAssemblyTypes(typeof(UserRepository).Assembly)
-                .Where(t => t.Name.EndsWith("Repository"))
-                .AsImplementedInterfaces().InstancePerRequest();*/
-
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
             builder.RegisterType<DbFactory>().As<IDbFactory>().InstancePerRequest();
             builder.RegisterType<EFMDbContext>().AsSelf().InstancePerRequest();
+
+            builder.RegisterType<ApplicationUser>().AsSelf().InstancePerRequest();
+            builder.RegisterType<ApplicationRole>().AsSelf().InstancePerRequest();
 
             var container = builder.Build();
 

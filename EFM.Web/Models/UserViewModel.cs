@@ -16,6 +16,7 @@ namespace EFM.Web.Models
         [LocalizedDisplayName("UserName", NameResourceType = typeof(EFM.Common.Resources.UserResource))]
         public string UserName { get; set; }
 
+        [LocalizedDisplayName("Password", NameResourceType = typeof(EFM.Common.Resources.UserResource))]
         public string Password { get; set; }
 
         [LocalizedDisplayName("FullName", NameResourceType = typeof(EFM.Common.Resources.UserResource))]
@@ -37,5 +38,7 @@ namespace EFM.Web.Models
 
         [LocalizedDisplayName("OrderNumber", NameResourceType = typeof(UserResource))]
         public int OrderNumber { get; set; }
+
+        public bool RememberMe {  get; set; }
     }
 }
