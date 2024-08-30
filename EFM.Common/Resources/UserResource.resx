@@ -121,7 +121,7 @@
     <value>Số thứ tự</value>
   </data>
   <data name="UserName" xml:space="preserve">
-    <value>Tên tài khoản</value>
+    <value>Tên đăng nhập</value>
   </data>
   <data name="FullName" xml:space="preserve">
     <value>Họ tên</value>

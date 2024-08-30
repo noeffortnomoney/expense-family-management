@@ -1,19 +1,18 @@
 ﻿@model EFM.Web.Models.UserViewModel
-
 @{
     Layout = "~/Views/Shared/_LayoutLogin.cshtml";
 }
 
+<div class="login-container">
+    @using (Html.BeginForm("Login", "Acount", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
 
-@using (Html.BeginForm("Login", "Acount", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
-    @Html.ValidationSummary(false, "", new { @class = "text-danger" });
-    <div class="card-body p-4 mt-2">
-        <div class="form-group mb-3">
-            @Html.LabelFor(model => model.UserName)
-            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @placeholder = "Tên đăng nhập", @autofocus = "autofocus" })
-        </div>
+    <div class="form-group mb-3">
+        @Html.LabelFor(model => model.UserName)
+        @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @placeholder = "Tên đăng nhập", @autofocus = "autofocus" })
+    </div>
         <div class="form-group mb-3">
             @Html.LabelFor(model => model.Password)
             @Html.TextBoxFor(model => model.Password, new { @class = "form-control", @placeholder = "Mật khẩu", @type = "password" })
@@ -26,14 +25,11 @@
                 </label>
             </div>
         </div>
-        <div class="form-group text-center mt-5 mb-4">
-            <button class="btn btn-primary waves-effect width-md waves-light" type="submit">Đăng nhập</button>
+        <div class="form-group text-center mt-4 mb-3">
+            <button class="btn btn-primary waves-effect waves-light" type="submit">Đăng nhập</button>
         </div>
-        <div class="form-group row mb-0">
-            <div class="col-sm-7">
-                <a href="#"><i class="fa fa-lock mr-1"></i> Quên mật khẩu?</a>
-            </div>
+        <div class="form-group text-center mb-0">
+            <a href="/Account/ForgotPassword" class="forgot-password"><i class="fa fa-lock mr-1"></i> Quên mật khẩu?</a>
         </div>
-    </div>
-}
-
+    }
+</div>

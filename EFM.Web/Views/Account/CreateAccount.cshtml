@@ -7,6 +7,19 @@
 {
     @Html.AntiForgeryToken()
     <div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <div class="page-title-right">
+                    <ol class="breadcrumb p-0 m-0">
+                        <li class="breadcrumb-item"><a href="\Home\Index">BinhKunbi</a></li>
+                        <li class="breadcrumb-item active">Thêm mới người dùng</li>
+                    </ol>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
@@ -73,14 +86,14 @@
                         </div>
                     </div>
                     @*<div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                @Html.LabelFor(model => model.Role, new { @class = "control-label" })
-                                @Html.DropDownListFor(model => model.Role, new SelectList(ViewBag.Roles, "Value", "Text", "Admin"), null, new { @class = "form-control" })
-                                @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Role, new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.Role, new SelectList(ViewBag.Roles, "Value", "Text", "Admin"), null, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+                                </div>
                             </div>
-                        </div>
-                    </div>*@
+                        </div>*@
                 </div>
 
                 <div class="modal-footer d-flex justify-content-start">
@@ -116,7 +129,7 @@
                             confirmButtonText: 'OK'
                         }).then((result) => {
                             if (result.isConfirmed) {
-                                window.location.href = "/Account/Index"; 
+                                window.location.href = "/Account/Index";
                             }
                         });
                     } else {

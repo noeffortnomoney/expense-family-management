@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EFM.Model.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
@@ -36,5 +37,6 @@ namespace EFM.Repository.Infrastructure
         bool CheckContains(Expression<Func<T, bool>> predicate);
         T GetById(int id);
         void SoftDelete(int id);
+        User GetUserByUserName(string userName);
     }
 }

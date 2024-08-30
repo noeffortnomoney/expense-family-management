@@ -16,6 +16,8 @@ namespace EFM.Model.Model
         [Required]
         [StringLength(100)]
         public string FamilyName { get; set; }
+        [Required]
+        public int Quantity { get; set; }
 
         public virtual ICollection<FamilyMember> FamilyMembers { get; set; }
         public virtual ICollection<Budget> Budgets { get; set; }

@@ -12,10 +12,17 @@ namespace EFM.Web.Mappings
         {
             var config = new MapperConfiguration(cfg =>
             {
+                //Category
                 cfg.CreateMap<Category, CategoryViewModel>();
+                cfg.CreateMap<CategoryViewModel, Category>();
+
                 //User
                 cfg.CreateMap<User, UserViewModel>();
                 cfg.CreateMap<UserViewModel, User>();
+
+                //Family
+                cfg.CreateMap<Family, FamilyViewModel>();
+                cfg.CreateMap<FamilyViewModel, Family>();
             });
 
             Mapper = config.CreateMapper();

@@ -31,6 +31,8 @@ E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.csproj.Asse
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.Migrations.EFMDB.resources
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.Migrations.EFMDBup2.resources
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.Migrations.EFMDB_up3.resources
+E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.Migrations.EFMDBup3.resources
+E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.Migrations.EFMDBup4.resources
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.csproj.GenerateResource.cache
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repository.csproj.CoreCompileInputs.cache
 E:\expense-family-management\EFM.Repository\obj\Debug\EFM.Repo.B06EB28D.Up2Date

@@ -1,10 +1,16 @@
 E:\expense-family-management\EFM.Model\bin\Debug\EFM.Model.dll.config
 E:\expense-family-management\EFM.Model\bin\Debug\EFM.Model.dll
 E:\expense-family-management\EFM.Model\bin\Debug\EFM.Model.pdb
+E:\expense-family-management\EFM.Model\bin\Debug\EFM.Common.dll
 E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.dll
 E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\expense-family-management\EFM.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\expense-family-management\EFM.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\expense-family-management\EFM.Model\bin\Debug\EFM.Common.pdb
 E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.xml
 E:\expense-family-management\EFM.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\expense-family-management\EFM.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\expense-family-management\EFM.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.csproj.AssemblyReference.cache
 E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.csproj.CoreCompileInputs.cache
 E:\expense-family-management\EFM.Model\obj\Debug\EFM.Model.csproj.Up2Date

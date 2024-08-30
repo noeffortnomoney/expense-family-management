@@ -4,8 +4,10 @@ using EFM.Service;
 using EFM.Web.Models;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
 
@@ -128,6 +130,81 @@ namespace EFM.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult ForgotPassword()
+        { 
+            return View(); 
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult ForgotPassword(UserViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var userName = model.UserName;
+                var user = _userService.GetUserByUserName(userName);
+
+                if (user != null)
+                {
+                    //var userViewModel = _mapper.Map<UserViewModel>(model);
+                    var newPassword = _userService.GenerateNewPassword();
+
+                    try
+                    {
+                        _userService.UpdateUserPassword(user, newPassword);
+
+                        // Gửi email mật khẩu mới
+                        string recipientEmail = "truongquocbinh0423@gmail.com";
+                        string senderEmail = ConfigurationManager.AppSettings["SenderEmail"];
+                        string appPassword = ConfigurationManager.AppSettings["AppPassword"];
+                        SendEmail(recipientEmail, "Mật khẩu mới", $"Mật khẩu mới của bạn là: {newPassword}", senderEmail, appPassword);
+
+                        TempData["Message"] = "Mật khẩu mới đã được gửi đến email của bạn.";
+                        return RedirectToAction("Login");
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", "Cấp lại mật khẩu không thành công. Vui lòng thử lại sau.");
+                        Console.WriteLine($"Error resetting password: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Tên đăng nhập không tồn tại.");
+                }
+            }
+            return View(model);
+        }
+
+        private void SendEmail(string recipientEmail, string subject, string body, string senderEmail, string appPassword)
+        {
+            try
+            {
+                using (var mail = new MailMessage())
+                {
+                    mail.From = new MailAddress(senderEmail);
+                    mail.To.Add(recipientEmail);
+                    mail.Subject = subject;
+                    mail.Body = body;
+                    mail.IsBodyHtml = true;
+
+                    using (var smtp = new SmtpClient("smtp.gmail.com"))
+                    {
+                        smtp.Port = 465; // Cổng SMTP của nhà cung cấp email của bạn
+                        smtp.Credentials = new NetworkCredential(senderEmail, appPassword);
+                        smtp.EnableSsl = true;
+
+                        smtp.Send(mail);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error sending email: {ex.Message}");
+            }
+        }
+
 
     }
 }

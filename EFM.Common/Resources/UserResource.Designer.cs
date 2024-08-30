@@ -59,7 +59,7 @@ namespace EFM.Common.Resources {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Địa chỉ.
         /// </summary>
@@ -68,7 +68,7 @@ namespace EFM.Common.Resources {
                 return ResourceManager.GetString("Address", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Email.
         /// </summary>
@@ -77,7 +77,7 @@ namespace EFM.Common.Resources {
                 return ResourceManager.GetString("Email", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Họ tên.
         /// </summary>
@@ -86,7 +86,7 @@ namespace EFM.Common.Resources {
                 return ResourceManager.GetString("FullName", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Số thứ tự.
         /// </summary>
@@ -95,7 +95,7 @@ namespace EFM.Common.Resources {
                 return ResourceManager.GetString("OrderNumber", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Mật khẩu.
         /// </summary>
@@ -104,7 +104,7 @@ namespace EFM.Common.Resources {
                 return ResourceManager.GetString("Password", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Số điện thoại.
         /// </summary>
@@ -113,7 +113,7 @@ namespace EFM.Common.Resources {
                 return ResourceManager.GetString("PhoneNumber", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Trạng thái.
         /// </summary>
@@ -122,9 +122,9 @@ namespace EFM.Common.Resources {
                 return ResourceManager.GetString("Status", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Tên tài khoản.
+        ///   Looks up a localized string similar to Tên đăng nhập.
         /// </summary>
         public static string UserName {
             get {

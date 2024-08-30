@@ -39,7 +39,7 @@ namespace EFM.Web.Controllers
         }
 
         // GET: Category/Create
-        public ActionResult Create()
+        public ActionResult CreateCategory()
         {
             return View();
         }
@@ -47,7 +47,7 @@ namespace EFM.Web.Controllers
         // POST: Category/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(CategoryViewModel categoryViewModel)
+        public ActionResult CreateCategory(CategoryViewModel categoryViewModel)
         {
             if (ModelState.IsValid)
             {

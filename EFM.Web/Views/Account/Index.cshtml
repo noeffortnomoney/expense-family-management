@@ -14,6 +14,19 @@
 }
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <div class="page-title-right">
+                <ol class="breadcrumb p-0 m-0">
+                    <li class="breadcrumb-item"><a href="\Home\Index">BinhKunbi</a></li>
+                    <li class="breadcrumb-item active">Danh sách người dùng</li>
+                </ol>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="row">
     <div class="col-lg-12">
         <div class="card">
             <div class="card-header">
@@ -23,7 +36,7 @@
                             <h3 class="card-title">Danh sách tài khoản người dùng</h3>
                         </td>
                         <td style="text-align:right;">
-                            <button class="btn btn-primary waves-effect waves-light" id="btnAddNewAccount" data-toggle="modal" data-target="#hop-thoai-modal">Thêm mới</button>
+                            <a href="/Account/CreateAccount" class="btn btn-primary waves-effect waves-light" id="btnAddNewAccount">Thêm mới</a>
                         </td>
                     </tr>
                 </table>
@@ -61,10 +74,12 @@
                                         </td>
                                         <td style="text-align:center;width:15px;vertical-align:middle;">
 
-                                            <a class="badge btn-link custom-icon-wrapper" href="#" id="alert_@item.UserID"
-                                               role="button" data-toggle="modal" data-target="#con-close-modal-edit-@item.UserID">
+                                            <a class="badge btn-link custom-icon-wrapper"
+                                               href="/Account/EditAccount/@item.UserID"
+                                               id="alert_@item.UserID" role="button">
                                                 <i class="fas fa-edit fa-2x custom-icon-style"></i>
                                             </a>
+
                                             <a class="badge btn-link custom-icon-wrapper" href="#"
                                                role="button" data-toggle="modal" data-target="#reset-password-modal-@item.UserID">
                                                 <i class="fas fa-key fa-2x custom-icon-style"></i>

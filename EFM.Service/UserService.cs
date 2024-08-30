@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using EFM.Common.Helpers;
 using EFM.Model.Model;
 using EFM.Repository.Infrastructure;
 using EFM.Repository.Repositories;
@@ -25,6 +27,11 @@ namespace EFM.Service
         User DeleteAccount(int id);
 
         bool ResetPassword(int userId, string newPassword);
+
+        User GetUserByUserName(string userName);
+        string GenerateNewPassword();
+        //bool SendNewPasswordEmail(User user, string newPassword);
+        void UpdateUserPassword(User user, string newPassword);
     }
 
     public class UserService : IUserService
@@ -115,6 +122,41 @@ namespace EFM.Service
             _unitOfWork.Commit();
 
             return true;
+        }
+
+        public User GetUserByUserName(string userName)
+        {
+            return _userRepository.GetUserByUserName(userName);
+        }
+
+
+        public string GenerateNewPassword()
+        {
+            // Tạo mật khẩu ngẫu nhiên, bạn có thể tùy chỉnh theo ý muốn
+            return Guid.NewGuid().ToString().Substring(0, 8);
+        }
+
+        /*public bool SendNewPasswordEmail(User user, string newPassword)
+        {
+            var subject = "Mật khẩu mới của bạn";
+            var content = $"Mật khẩu mới của bạn là: {newPassword}";
+
+            return Mail.SendMail(user.Email, subject, content);
+        }*/
+
+        public void UpdateUserPassword(User user, string newPassword)
+        {
+            // Cập nhật mật khẩu mới (mã hóa mật khẩu nếu cần)
+            user.Password = HashPassword(newPassword); // HashPassword là một phương thức giả định để mã hóa mật khẩu
+            _userRepository.Update(user);
+            _unitOfWork.Commit();
+        }
+
+        private string HashPassword(string password)
+        {
+            // Giả định bạn có một phương thức để hash mật khẩu
+            // Bạn nên sử dụng một thư viện mã hóa mật khẩu như BCrypt hoặc PBKDF2
+            return password; // Thay thế bằng mã hóa thực sự
         }
 
     }

@@ -160,3 +160,5 @@ E:\expense-family-management\EFM.Web\obj\Debug\EFM.Web.csproj.CoreCompileInputs.
 E:\expense-family-management\EFM.Web\obj\Debug\EFM.Web.csproj.Up2Date
 E:\expense-family-management\EFM.Web\obj\Debug\EFM.Web.dll
 E:\expense-family-management\EFM.Web\obj\Debug\EFM.Web.pdb
+E:\expense-family-management\EFM.Web\obj\Debug\EFM.Web.Resources.AllResources.resources
+E:\expense-family-management\EFM.Web\obj\Debug\EFM.Web.csproj.GenerateResource.cache

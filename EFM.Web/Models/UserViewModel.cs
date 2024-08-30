@@ -12,7 +12,6 @@ namespace EFM.Web.Models
     public class UserViewModel
     {
         public int UserID { get; set; }
-
         [LocalizedDisplayName("UserName", NameResourceType = typeof(EFM.Common.Resources.UserResource))]
         public string UserName { get; set; }
 

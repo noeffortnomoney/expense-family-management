@@ -1,0 +1,135 @@
+﻿@model EFM.Web.Models.CategoryViewModel
+@{
+    ViewBag.Title = "Thêm mới danh mục";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("CreateCategory", "Category", FormMethod.Post, new { @class = "form-horizontal", id = "createCategoryForm" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <table style="width:100%;">
+                        <tr>
+                            <td>
+                                <h3 class="card-title">Thêm mới danh mục</h3>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="successMessage" class="alert alert-success" style="display:none;">
+                    @TempData["SuccessMessage"]
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CategoryName, new { @class = "control-label" })
+                                @Html.TextBoxFor(model => model.CategoryName, new { @class = "form-control", @placeholder = "Nhập tên danh mục..." })
+                                @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Description, new { @class = "control-label" })
+                                @Html.TextBoxFor(model => model.Description, new { @class = "form-control", @placeholder = "Nhập mô tả..." })
+                                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Image, new { @class = "control-label" })
+
+                                <div class="input-group">
+                                    @Html.TextBoxFor(model => model.Image, new { @class = "form-control", @readonly = "readonly", @placeholder = "Chọn hình ảnh..." })
+                                    <div class="input-group-append">
+                                        <label class="btn btn-outline-secondary mb-0">
+                                            Chọn
+                                            <input type="file" id="imageUpload" accept="image/*" style="display: none;" onchange="updateImagePath(this)" />
+                                        </label>
+                                    </div>
+                                </div>
+
+                                @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Role, new { @class = "control-label" })
+                                    @Html.DropDownListFor(model => model.Role, new SelectList(ViewBag.Roles, "Value", "Text", "Admin"), null, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>*@
+                </div>
+
+                <div class="modal-footer d-flex justify-content-start">
+                    <button type="submit" id="btnAddNewCategory" class="btn btn-info waves-effect waves-light">Lưu</button>
+                    @Html.ActionLink("Quay về danh sách", "Index", "Category", null, new { @class = "btn btn-secondary waves-effect waves-light" })
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+<script>
+    function updateImagePath(input) {
+        if (input.files && input.files[0]) {
+            // Lấy đường dẫn tệp và hiển thị trong TextBox
+            const fileName = input.files[0].name;
+            const textBox = document.querySelector('input[name="Image"]');
+            textBox.value = fileName;
+        }
+    }
+    $(document).ready(function () {
+        $('#createCategoryForm').on('submit', function (e) {
+            e.preventDefault(); // Ngăn gửi form mặc định
+
+            var form = $(this);
+            var formData = form.serialize(); // Lấy dữ liệu từ form
+
+            $.ajax({
+                url: '/Category/CreateCategory',
+                data: formData,
+                type: 'POST',
+                success: function (response) {
+                    if (response.success) {
+                        Swal.fire({
+                            title: 'Lưu Thành công!',
+                            text: response.message,
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                window.location.href = "/Category/Index";
+                            }
+                        });
+                    } else {
+                        Swal.fire({
+                            title: 'Lỗi!',
+                            text: response.message || "Có lỗi xảy ra",
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                },
+                error: function () {
+                    Swal.fire({
+                        title: 'Lỗi!',
+                        text: "Có lỗi xảy ra khi gửi dữ liệu",
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                }
+            });
+        });
+    });
+</script>

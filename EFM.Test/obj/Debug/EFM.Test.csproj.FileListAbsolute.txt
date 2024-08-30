@@ -1,2 +1,0 @@
-E:\expense-family-management\EFM.Test\obj\Debug\EFM.Test.csproj.AssemblyReference.cache
-E:\expense-family-management\EFM.Test\obj\Debug\EFM.Test.csproj.CoreCompileInputs.cache

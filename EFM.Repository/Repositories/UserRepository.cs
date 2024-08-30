@@ -5,6 +5,7 @@ namespace EFM.Repository.Repositories
 {
     public interface IUserRepository : IRepository<User>
     {
+        
     }
     public class UserRepository : RepositoryBase<User>, IUserRepository
     {

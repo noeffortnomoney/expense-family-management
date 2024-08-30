@@ -11,6 +11,7 @@ using EFM.Repository;
 using EFM.Service;
 using EFM.Web.Mappings;
 using EFM.Model.Model;
+using System.Configuration;
 
 namespace EFM.Web.App_Start
 {
@@ -41,8 +42,9 @@ namespace EFM.Web.App_Start
             builder.RegisterType<DbFactory>().As<IDbFactory>().InstancePerRequest();
             builder.RegisterType<EFMDbContext>().AsSelf().InstancePerRequest();
 
-            builder.RegisterType<ApplicationUser>().AsSelf().InstancePerRequest();
-            builder.RegisterType<ApplicationRole>().AsSelf().InstancePerRequest();
+
+            /*builder.RegisterType<ApplicationUser>().AsSelf().InstancePerRequest();
+            builder.RegisterType<ApplicationRole>().AsSelf().InstancePerRequest();*/
 
             var container = builder.Build();
 
@@ -51,6 +53,8 @@ namespace EFM.Web.App_Start
 
             // Đặt Autofac DependencyResolver cho Web API
             GlobalConfiguration.Configuration.DependencyResolver = new AutofacWebApiDependencyResolver(container);
+
+            
         }
     }
 }
