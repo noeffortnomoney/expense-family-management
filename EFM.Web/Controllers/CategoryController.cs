@@ -23,6 +23,11 @@ namespace EFM.Web.Controllers
         {
             var categories = _categoryService.GetAll();
             var categoryViewModels = _mapper.Map<IEnumerable<CategoryViewModel>>(categories);
+            int orderNumber = 1;
+            foreach (var categoryViewModel in categoryViewModels)
+            {
+                categoryViewModel.OrderNumber = orderNumber++;
+            }
             return View(categoryViewModels);
         }
 

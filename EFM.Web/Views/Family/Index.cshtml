@@ -45,7 +45,7 @@
                                 {
                                     <tr id="row_@item.FamilyID">
                                         <td>
-                                            @item.OrderNumber
+                                            <a href="@Url.Action("DetailFamily", "Family", new { id = item.FamilyID })">@item.OrderNumber</a>
                                         </td>
                                         <td>@item.FamilyName</td>
                                         <td>@item.Quantity</td>

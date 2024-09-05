@@ -23,11 +23,16 @@ namespace EFM.Web.Controllers
         {
             var families = _familyService.GetAll();
             var familyViewModels = _mapper.Map<IEnumerable<FamilyViewModel>>(families);
+            int orderNumber = 1;
+            foreach (var familyViewModel in familyViewModels)
+            {
+                familyViewModel.OrderNumber = orderNumber++;
+            }
             return View(familyViewModels);
         }
 
         // GET: familyDetails/5
-        public ActionResult Details(int id)
+        public ActionResult DetailFamily(int id)
         {
             var family = _familyService.GetById(id);
             if (family == null)
