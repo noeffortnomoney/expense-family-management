@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "E:\\expense-family-management\\EFM.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|e:\\expense-family-management\\efm.web\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,7 +38,7 @@
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|e:\\expense-family-management\\efm.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|E:\\expense-family-management\\EFM.Web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6813D42D-5761-4E85-A1F2-3E7D48A259DC}|EFM.Web.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -281,19 +281,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CategoryViewModel.cs",
+              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
+              "RelativeToolTip": "Models\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:24:47.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -305,8 +318,7 @@
               "RelativeToolTip": "Models\\UserViewModel.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:47:46.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T01:47:46.235Z"
             },
             {
               "$type": "Document",
@@ -318,8 +330,7 @@
               "RelativeToolTip": "..\\EFM.Service\\FamilyService.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAWwDQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T06:56:23.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T06:56:23.966Z"
             },
             {
               "$type": "Document",
@@ -331,21 +342,7 @@
               "RelativeToolTip": "Models\\FamilyViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAwwBQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T07:04:36.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryViewModel.cs",
-              "DocumentMoniker": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\CategoryViewModel.cs",
-              "ToolTip": "E:\\expense-family-management\\EFM.Web\\Models\\CategoryViewModel.cs",
-              "RelativeToolTip": "Models\\CategoryViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:24:47.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T07:04:36.535Z"
             },
             {
               "$type": "Document",
@@ -357,8 +354,7 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAkwB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:22:17.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T08:22:17.527Z"
             },
             {
               "$type": "Document",
@@ -370,8 +366,7 @@
               "RelativeToolTip": "Controllers\\FamilyController.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAswCkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T07:08:37.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T07:08:37.856Z"
             },
             {
               "$type": "Document",
@@ -383,8 +378,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAiwCMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T12:23:09.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T12:23:09.285Z"
             },
             {
               "$type": "Document",
@@ -396,8 +390,7 @@
               "RelativeToolTip": "Views\\Family\\Index.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T07:08:46.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T07:08:46.367Z"
             },
             {
               "$type": "Document",
@@ -409,8 +402,7 @@
               "RelativeToolTip": "Views\\Account\\Index.cshtml",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T16:23:55.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T16:23:55.523Z"
             },
             {
               "$type": "Document",
@@ -422,8 +414,7 @@
               "RelativeToolTip": "Views\\Category\\Index.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T15:02:44.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T15:02:44.081Z"
             },
             {
               "$type": "Document",
@@ -435,8 +426,7 @@
               "RelativeToolTip": "Views\\Family\\CreateMember.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T07:41:06.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T07:41:06.648Z"
             },
             {
               "$type": "Document",
@@ -448,8 +438,7 @@
               "RelativeToolTip": "Views\\Category\\CreateCategory.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T06:36:05.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T06:36:05.601Z"
             },
             {
               "$type": "Document",
