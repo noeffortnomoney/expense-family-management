@@ -147,4 +147,7 @@
   <data name="Description" xml:space="preserve">
     <value>Mô tả</value>
   </data>
+  <data name="CategoryID" xml:space="preserve">
+    <value>ID danh mục</value>
+  </data>
 </root>

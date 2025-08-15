@@ -3,6 +3,50 @@
     ViewBag.Title = "Thêm mới danh mục";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    .icon-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        gap: 12px;
+        max-height: 200px;
+        overflow-y: auto;
+        border: 2px solid #e0e4e7;
+        border-radius: 8px;
+        padding: 16px;
+        background: #fafbfc;
+        .icon-option
+
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #e0e4e7;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: white;
+        font-size: 24px;
+    }
+
+    .icon-option:hover, .icon-option.hover-effect {
+        border-color: #4285f4;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-input.focused, .form-select.focused {
+        border-color: #4285f4;
+        box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.1);
+    }
+
+    .icon-option.selected {
+        border-color: #4285f4;
+        background: #4285f4;
+        color: white;
+    }   
+</style>
 @using (Html.BeginForm("CreateCategory", "Category", FormMethod.Post, new { @class = "form-horizontal", id = "createCategoryForm" }))
 {
     @Html.AntiForgeryToken()
@@ -23,17 +67,24 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="form-group">
-                                @Html.LabelFor(model => model.CategoryName, new { @class = "control-label" })
+                                @Html.LabelFor(model => model.CategoryName, new { @class = "control-label" })<span> *</span>
                                 @Html.TextBoxFor(model => model.CategoryName, new { @class = "form-control", @placeholder = "Nhập tên danh mục..." })
                                 @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger" })
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CategoryCode, new { @class = "control-label" })
+                                @Html.TextBoxFor(model => model.CategoryCode, new { @class = "form-control", @placeholder = "Nhập mã danh mục..." })
+                                @Html.ValidationMessageFor(model => model.CategoryCode, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-md-4">
                             <div class="form-group">
                                 @Html.LabelFor(model => model.Description, new { @class = "control-label" })
-                                @Html.TextBoxFor(model => model.Description, new { @class = "form-control", @placeholder = "Nhập mô tả..." })
+                                @Html.TextAreaFor(model => model.Description, new { @class = "form-control", @placeholder = "Nhập mô tả..." })
                                 @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
                             </div>
                         </div>
@@ -57,15 +108,56 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.ParentCategory, "Danh mục cha", new { @class = "form-label" })
+                            @*@Html.DropDownListFor(m => m.ParentCategory, new SelectList(new[]
+                            {
+                                new { Value = "", Text = "Chọn danh mục cha..." },
+                                new { Value = "food", Text = "Ăn uống" },
+                                new { Value = "transport", Text = "Đi lại" },
+                                new { Value = "shopping", Text = "Mua sắm" },
+                                new { Value = "entertainment", Text = "Giải trí" },
+                                new { Value = "health", Text = "Sức khỏe" },
+                                new { Value = "education", Text = "Giáo dục" }
+                            }, "Value", "Text", Model.ParentCategory),
+                            new { @class = "form-select", id = "parentCategory" })*@
+                        </div>
+
+                        <div class="form-group">
+                            @*@Html.LabelFor(m => m.CategoryColor, "Màu sắc", new { @class = "form-label" })
+                            <div class="color-picker-group">
+                                @Html.TextBoxFor(m => m.CategoryColor, new { type = "color", @class = "color-input", id = "categoryColor" })
+                                <div class="color-preview" style="background-color: @(Model.CategoryColor ?? "#4285f4");"></div>
+                                <span>Chọn màu đại diện</span>
+                            </div>*@
+                        </div>
+                    </div>
+
+                    <div class="form-group icon-group">
+                        <label class="form-label">Biểu tượng</label>
+                        <div class="icon-grid">
+                            @foreach (var icon in new[] { "🍕", "🚗", "🛒", "🎬", "🏥", "📚", "⚡", "🏠", "💳", "📱", "👕", "🎯" })
+                            {
+                                <div class="icon-option" data-icon="@icon">@icon</div>
+                            }
+                        </div>
+                        @Html.HiddenFor(m => m.SelectedIcon, new { id = "selectedIcon" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Description, "Mô tả", new { @class = "form-label" })
+                        @Html.TextAreaFor(m => m.Description, new { @class = "form-input textarea", placeholder = "Nhập mô tả cho danh mục..." })
+                    </div>
                     @*<div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    @Html.LabelFor(model => model.Role, new { @class = "control-label" })
-                                    @Html.DropDownListFor(model => model.Role, new SelectList(ViewBag.Roles, "Value", "Text", "Admin"), null, new { @class = "form-control" })
-                                    @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
-                                </div>
-                            </div>
-                        </div>*@
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Role, new { @class = "control-label" })
+                    @Html.DropDownListFor(model => model.Role, new SelectList(ViewBag.Roles, "Value", "Text", "Admin"), null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>*@
                 </div>
 
                 <div class="modal-footer d-flex justify-content-start">

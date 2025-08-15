@@ -70,6 +70,15 @@ namespace EFM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ID danh mục.
+        /// </summary>
+        public static string CategoryID {
+            get {
+                return ResourceManager.GetString("CategoryID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tên danh mục.
         /// </summary>
         public static string CategoryName {

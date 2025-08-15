@@ -46,6 +46,7 @@ namespace EFM.Web.Controllers
         // GET: Category/Create
         public ActionResult CreateCategory()
         {
+            var model = new CategoryViewModel();
             return View();
         }
 

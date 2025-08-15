@@ -12,16 +12,21 @@ namespace EFM.Web.Models
     public class CategoryViewModel
     {
         public int CategoryID { get; set; }
-        [LocalizedDisplayName("CategoryName", NameResourceType = typeof(AllResources))]
+        [LocalizedDisplayName("CategoryID", NameResourceType = typeof(AllResources))]       
         public string CategoryName { get; set; }
-        [LocalizedDisplayName("Description", NameResourceType = typeof(AllResources))]
+        [LocalizedDisplayName("CategoryName", NameResourceType = typeof(AllResources))]
+        public string CategoryCode { get; set; }
+        [LocalizedDisplayName("CategoryCode", NameResourceType = typeof(AllResources))]
         public string Description { get; set; }
-        [LocalizedDisplayName("Image", NameResourceType = typeof(AllResources))]
+        [LocalizedDisplayName("Description", NameResourceType = typeof(AllResources))]
         public string Image {  get; set; }
 
-        [LocalizedDisplayName("OrderNumber", NameResourceType = typeof(AllResources))]
+        [LocalizedDisplayName("Image", NameResourceType = typeof(AllResources))]
         public int OrderNumber { get; set; }
-        [LocalizedDisplayName("Type", NameResourceType = typeof(AllResources))]
+        [LocalizedDisplayName("OrderNumber", NameResourceType = typeof(AllResources))]
+        public string ParentCategory { get; set; }
+        public string CategoryColor { get; set; }
+        public string SelectedIcon { get; set; }
         public CategoryType Type { get; set; }
     }
 }
