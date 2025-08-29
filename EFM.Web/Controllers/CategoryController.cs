@@ -47,6 +47,7 @@ namespace EFM.Web.Controllers
         public ActionResult CreateCategory()
         {
             var model = new CategoryViewModel();
+            ViewBag.CategoryParentID = new SelectList(_categoryService.ExpenseCategories, "Id", "Name");
             return View();
         }
 

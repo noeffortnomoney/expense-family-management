@@ -16,6 +16,10 @@ namespace EFM.Web.Mappings
                 cfg.CreateMap<Category, CategoryViewModel>();
                 cfg.CreateMap<CategoryViewModel, Category>();
 
+                //CategoryParent
+                //cfg.CreateMap<CategoryParent, CategoryParentViewModel>();
+                //cfg.CreateMap<CategoryParentViewModel, CategoryParent>();
+
                 //User
                 cfg.CreateMap<User, UserViewModel>();
                 cfg.CreateMap<UserViewModel, User>();

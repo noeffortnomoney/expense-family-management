@@ -17,9 +17,18 @@ namespace EFM.Model.Model
         [StringLength(100)]
         public string CategoryName { get; set; }
 
+        [StringLength(50)]
+        public string CategoryCode { get; set; }
         public string Image {  get; set; }
 
+        [StringLength(1000)]
         public string Description { get; set; }
+
+        [StringLength(50)]
+        public string CategoryColor { get; set; }
+
+        [StringLength(50)]
+        public string Icon { get; set; }
 
         [Required]
         public CategoryType Type { get; set; }

@@ -150,4 +150,13 @@
   <data name="CategoryID" xml:space="preserve">
     <value>ID danh mục</value>
   </data>
+  <data name="CategoryParentID" xml:space="preserve">
+    <value>Danh mục cha</value>
+  </data>
+  <data name="SelectedIcon" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="CategoryColor" xml:space="preserve">
+    <value>Màu sắc</value>
+  </data>
 </root>

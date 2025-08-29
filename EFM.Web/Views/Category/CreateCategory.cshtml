@@ -69,7 +69,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
-                                @Html.LabelFor(model => model.CategoryName, new { @class = "control-label" })<span> *</span>
+                                @Html.LabelFor(model => model.CategoryName, new { @class = "control-label" })<span style="color: red"> *</span>
                                 @Html.TextBoxFor(model => model.CategoryName, new { @class = "form-control", @placeholder = "Nhập tên danh mục..." })
                                 @Html.ValidationMessageFor(model => model.CategoryName, "", new { @class = "text-danger" })
                             </div>
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    @*<div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
                                 @Html.LabelFor(model => model.Image, new { @class = "control-label" })
@@ -107,62 +107,59 @@
                                 @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
                             </div>
                         </div>
-                    </div>
+                    </div>*@
                     <div class="row">
-                        <div class="form-group">
-                            @Html.LabelFor(m => m.ParentCategory, "Danh mục cha", new { @class = "form-label" })
-                            @*@Html.DropDownListFor(m => m.ParentCategory, new SelectList(new[]
-                            {
-                                new { Value = "", Text = "Chọn danh mục cha..." },
-                                new { Value = "food", Text = "Ăn uống" },
-                                new { Value = "transport", Text = "Đi lại" },
-                                new { Value = "shopping", Text = "Mua sắm" },
-                                new { Value = "entertainment", Text = "Giải trí" },
-                                new { Value = "health", Text = "Sức khỏe" },
-                                new { Value = "education", Text = "Giáo dục" }
-                            }, "Value", "Text", Model.ParentCategory),
-                            new { @class = "form-select", id = "parentCategory" })*@
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.CategoryParentID, new { @class = "control-label" })
+                                @Html.DropDownList("CategoryParentID", null, "Chọn danh mục cha...", new { @class = "form-control" })
+                                @*@Html.DropDownListFor(m => m.ParentCategory, new SelectList(new[]
+                                {
+                                    new { Value = "", Text = "Chọn danh mục cha..." },
+                                    new { Value = "food", Text = "Ăn uống" },
+                                    new { Value = "transport", Text = "Đi lại" },
+                                    new { Value = "shopping", Text = "Mua sắm" },
+                                    new { Value = "entertainment", Text = "Giải trí" },
+                                    new { Value = "health", Text = "Sức khỏe" },
+                                    new { Value = "education", Text = "Giáo dục" }
+                                }, "Value", "Text", Model.ParentCategory),
+                                new { @class = "form-select", id = "parentCategory" })*@
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                @*@Html.LabelFor(m => m.CategoryColor, "Màu sắc", new { @class = "form-label" })
+                    <div class="color-picker-group">
+                        @Html.TextBoxFor(m => m.CategoryColor, new { type = "color", @class = "color-input", id = "categoryColor" })
+                        <div class="color-preview" style="background-color: @(Model.CategoryColor ?? "#4285f4");"></div>
+                        <span>Chọn màu đại diện</span>
+                    </div>*@
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            @*@Html.LabelFor(m => m.CategoryColor, "Màu sắc", new { @class = "form-label" })
-                            <div class="color-picker-group">
-                                @Html.TextBoxFor(m => m.CategoryColor, new { type = "color", @class = "color-input", id = "categoryColor" })
-                                <div class="color-preview" style="background-color: @(Model.CategoryColor ?? "#4285f4");"></div>
-                                <span>Chọn màu đại diện</span>
-                            </div>*@
+                        <div class="form-group icon-group">
+                            <label class="form-label">Biểu tượng</label>
+                            <div class="icon-grid">
+                                @foreach (var icon in new[] { "🍕", "🚗", "🛒", "🎬", "🏥", "📚", "⚡", "🏠", "💳", "📱", "👕", "🎯" })
+                                {
+                                    <div class="icon-option" data-icon="@icon">@icon</div>
+                                }
+                            </div>
+                            @Html.HiddenFor(m => m.SelectedIcon, new { id = "selectedIcon" })
                         </div>
-                    </div>
-
-                    <div class="form-group icon-group">
-                        <label class="form-label">Biểu tượng</label>
-                        <div class="icon-grid">
-                            @foreach (var icon in new[] { "🍕", "🚗", "🛒", "🎬", "🏥", "📚", "⚡", "🏠", "💳", "📱", "👕", "🎯" })
-                            {
-                                <div class="icon-option" data-icon="@icon">@icon</div>
-                            }
-                        </div>
-                        @Html.HiddenFor(m => m.SelectedIcon, new { id = "selectedIcon" })
-                    </div>
-
+                        @*<div class="row">
+                <div class="col-md-6">
                     <div class="form-group">
-                        @Html.LabelFor(m => m.Description, "Mô tả", new { @class = "form-label" })
-                        @Html.TextAreaFor(m => m.Description, new { @class = "form-input textarea", placeholder = "Nhập mô tả cho danh mục..." })
+                        @Html.LabelFor(model => model.Role, new { @class = "control-label" })
+                        @Html.DropDownListFor(model => model.Role, new SelectList(ViewBag.Roles, "Value", "Text", "Admin"), null, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
                     </div>
-                    @*<div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    @Html.LabelFor(model => model.Role, new { @class = "control-label" })
-                    @Html.DropDownListFor(model => model.Role, new SelectList(ViewBag.Roles, "Value", "Text", "Admin"), null, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
                 </div>
-            </div>
-        </div>*@
-                </div>
+            </div>*@
+                    </div>
 
                 <div class="modal-footer d-flex justify-content-start">
-                    <button type="submit" id="btnAddNewCategory" class="btn btn-info waves-effect waves-light">Lưu</button>
-                    @Html.ActionLink("Quay về danh sách", "Index", "Category", null, new { @class = "btn btn-secondary waves-effect waves-light" })
+                    <button type="submit" id="btnAddNewCategory" class="btn btn-info waves-effect waves-light">💾 Lưu</button>
+                    @Html.ActionLink("← Quay về danh sách", "Index", "Category", null, new { @class = "btn btn-secondary waves-effect waves-light" })
                 </div>
             </div>
         </div>

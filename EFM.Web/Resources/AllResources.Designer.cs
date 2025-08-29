@@ -70,6 +70,15 @@ namespace EFM.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Màu sắc.
+        /// </summary>
+        public static string CategoryColor {
+            get {
+                return ResourceManager.GetString("CategoryColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ID danh mục.
         /// </summary>
         public static string CategoryID {
@@ -84,6 +93,15 @@ namespace EFM.Web.Resources {
         public static string CategoryName {
             get {
                 return ResourceManager.GetString("CategoryName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Danh mục cha.
+        /// </summary>
+        public static string CategoryParentID {
+            get {
+                return ResourceManager.GetString("CategoryParentID", resourceCulture);
             }
         }
         
@@ -147,6 +165,15 @@ namespace EFM.Web.Resources {
         public static string Quantity {
             get {
                 return ResourceManager.GetString("Quantity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Biểu tượng.
+        /// </summary>
+        public static string SelectedIcon {
+            get {
+                return ResourceManager.GetString("SelectedIcon", resourceCulture);
             }
         }
         
